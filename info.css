@@ -4,7 +4,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid red 3px;
     box-sizing: border-box;
 }
 
@@ -14,7 +13,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    border: solid white 3px;
     box-sizing: border-box;
     padding: 5px;
 }
@@ -36,21 +34,18 @@ li{
     position: relative;
     display: block;
     text-align: center;
-    border: solid blue 3px;
     box-sizing: border-box;
     margin-top: 140px;
 }
 
 .hello{
     font-size: 4rem;
-    border: solid yellow 3px;
     box-sizing: border-box;
 }
 
 .date{
     font-size: 3rem;
     margin: 0;
-    border: solid yellowgreen 3px;
     box-sizing: border-box;
 }
 
@@ -66,14 +61,12 @@ li{
 
 .latest-news-container{
     display: block;
-    border: solid purple 3px;
     box-sizing: border-box;
     margin-top: 50px;
 }
 
 .latest-news{
     position: relative;
-    border: solid coral 3px;
     box-sizing: border-box;
     padding: 3px;
     font-size: 1.5rem;
@@ -83,6 +76,7 @@ li{
     position: absolute;
     background-color: red;
     color: white;
+    border: solid red .5px;
     border-radius: 50%;
     top: -23px;
     right: 0;
@@ -94,7 +88,6 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: solid hotpink 3px;
     box-sizing: border-box;
 }
 
@@ -105,7 +98,6 @@ li{
 .news-image{
     width: 200px;
     height: 150px;
-    border: solid teal 3px;
     box-sizing: border-box;
 }
 
@@ -113,6 +105,5 @@ li{
     height: 150px;
     overflow-y: scroll;
     padding-left: 5px;
-    border: solid maroon 3px;
     box-sizing: border-box;
 }
