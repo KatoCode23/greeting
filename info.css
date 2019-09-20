@@ -7,6 +7,14 @@ body{
     box-sizing: border-box;
 }
 
+.main-content{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .header{
     position: relative;
     width: 100%;
@@ -15,6 +23,13 @@ body{
     justify-content: flex-end;
     box-sizing: border-box;
     padding: 5px;
+}
+
+.news-item__list{
+    max-height: 200px;
+    overflow: scroll;
+    background: #d6c7c78a;
+    border: solid 1px grey;
 }
 
 .log-out{
@@ -26,16 +41,12 @@ body{
     border-radius: 2px;
 }
 
-li{
-    list-style-type: none;
-}
-
 .greeting-container{
     position: relative;
     display: block;
     text-align: center;
     box-sizing: border-box;
-    margin-top: 140px;
+    margin-top: 25px;
 }
 
 .hello{
@@ -55,7 +66,6 @@ li{
     border-bottom: solid grey 1px;
     box-sizing: border-box;
     color: grey;
-    width: 80%;
     margin: 0 auto;
 }
 
@@ -78,9 +88,12 @@ li{
     color: white;
     border: solid red .5px;
     border-radius: 50%;
-    top: -23px;
-    right: 0;
-    padding: 2px;
+    top: -12px;
+    right: -16;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    line-height: 1;
 }
 
 .news-item{
@@ -92,7 +105,7 @@ li{
 }
 
 .small-news-date{
-    color: grey;
+    color: black;
 }
 
 .news-image{
@@ -103,7 +116,6 @@ li{
 
 .news-paragragh{
     height: 150px;
-    overflow-y: scroll;
     padding-left: 5px;
     box-sizing: border-box;
 }
